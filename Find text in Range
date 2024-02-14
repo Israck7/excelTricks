@@ -1,0 +1,7 @@
+The following formula will find a text in a range of cells
+
+=IF(COUNTIF(***RANGE**,**VALUE TO BE FIND**),"Yes","No")
+Sample:
+
+=IF(COUNTIF(A2:A12,"*Specific Text*"),"Yes","No")
+
